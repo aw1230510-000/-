@@ -1,0 +1,254 @@
+@charset "utf-8";
+@import url("common.css");
+
+
+html {
+  font-size: 100%;
+}
+body {
+  color: #24292e;
+}
+
+
+/*-------------------------------------------
+header
+-------------------------------------------*/
+header{
+  display: flex;
+  margin-top: 40px;
+  margin-left: 400px;
+}
+#log{
+  margin-bottom: 20px;
+}
+header ul{
+  list-style: none;
+  display: flex;
+}
+header ul li{
+  margin-right: 50px;
+  margin-left: 50px;
+}
+header ul li img{
+  width: 30px;
+}
+/*-------------------------------------------
+Mainvisual
+-------------------------------------------*/
+#mainvisual img{
+  height: 420px;
+  width: 100%;
+}
+/*-------------------------------------------
+About
+-------------------------------------------*/
+#about h2{
+  text-align: center;
+  margin-bottom: 70px;
+  margin-top: 30px;
+  font-size: 40px;
+}
+#al{
+  margin-left: 400px;
+}
+#one{
+  margin-bottom: 35px;
+}
+#area{
+  line-height: 0.3em;
+}
+#te{
+  padding-top: 20px;
+}
+/*-------------------------------------------
+Works
+-------------------------------------------*/
+#works h2{
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+#works img{
+  width: 250px;
+  height: 190px;
+}
+#img_all{
+  margin-left: 370px;
+}
+#img_1{
+  display: flex;
+  padding-bottom: 20px;
+}
+#img_1 img{
+  margin-right: 20px;
+}
+#img_2{
+  display: flex;
+}
+#img_2 img{
+  margin-right: 20px;
+}
+
+/*-------------------------------------------
+News
+-------------------------------------------*/
+#news h2{
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+#news ul{
+  list-style: none;
+  margin-left: 400px;
+  line-height: 3em;
+}
+date{
+  margin-right: 50px;
+}
+#news ul li{
+  text-align: justify;
+  border-bottom: dotted 2px #000;
+  margin-right: 400px;
+}
+/*-------------------------------------------
+Contact
+-------------------------------------------*/
+#contact h2{
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+#cont{
+  margin-left: 400px;
+}
+#cont p{
+  line-height: 2em;
+}
+#tex{
+  display: flex;
+}
+#but{
+  text-align: center;
+  margin-top: 50px;
+}
+#but button{
+  width: 90px;
+  height: 30px;
+  color: #fff;
+  background-color: #24292e;
+}
+#but button:hover{
+  background-color: #fff;
+  color: #000;
+}
+/*-------------------------------------------
+フッター
+-------------------------------------------*/
+footer {
+  background-color: #24292e;
+  color: #fff;
+  font-size: 0.5rem;
+  padding: 10px 20px;
+  text-align: center;
+}
+/*パソコン*/
+.pc{ display: block !important;}
+.sp{ display: none !important;}
+
+@media screen and (max-width:600px){
+ /*-------------------------------------------
+header
+-------------------------------------------*/
+header{
+  margin-top: 40px;
+  display: block;
+}
+#log{
+  margin-left: -170px;
+}
+header ul{
+  margin-left: -320px;
+  list-style: none;
+  display: flex;
+}
+header ul li{
+  margin-right: 30px;
+  margin-left: 20px;
+}
+header ul li img{
+  width: 25px;
+}
+
+/*-------------------------------------------
+About
+-------------------------------------------*/
+#al{
+  margin-left: 20px;
+}
+#one{
+  margin-bottom: 15px;
+}
+#area{
+  line-height: 1.0em;
+}
+#te{
+  padding-top: 10px;
+}
+
+/*-------------------------------------------
+Works
+-------------------------------------------*/
+#works img{
+  width: 300px;
+  height: 150px;
+}
+#img_all{
+  margin-left: 140px;
+}
+#img_1{
+  display: block;
+}
+#img_2{
+  display: block;
+}
+
+/*-------------------------------------------
+News
+-------------------------------------------*/
+#news ul{
+  list-style: none;
+  margin-left: 40px;
+  line-height: 3em;
+}
+date{
+  margin-right: 50px;
+}
+#news ul li{
+  text-align: justify;
+  border-bottom: dotted 2px #000;
+  margin-right: 50px;
+}
+/*-------------------------------------------
+Contact
+-------------------------------------------*/
+#cont{
+  margin-left: 40px;
+}
+#cont p{
+  line-height: 2em;
+}
+#tex{
+  display: flex;
+}
+#but{
+  text-align: center;
+  margin-top: 50px;
+}
+
+/*スマホ*/
+.pc{ display: none !important;}
+.sp{ display: block !important;}
+}
